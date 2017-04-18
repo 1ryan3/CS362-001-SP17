@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: tutorial.LinkedList_ESTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.107 sec <<< FAILURE! - in tutorial.LinkedList_ESTest
+test7(tutorial.LinkedList_ESTest)  Time elapsed: 0.011 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at tutorial.LinkedList.add(LinkedList.java:14)
+	at tutorial.LinkedList_ESTest.test7(LinkedList_ESTest.java:107)
+

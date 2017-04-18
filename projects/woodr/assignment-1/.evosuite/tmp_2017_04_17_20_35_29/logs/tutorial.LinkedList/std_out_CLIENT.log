@@ -1,0 +1,81 @@
+* Starting client
+* Connecting to master process on port 8872
+* Analyzing classpath: 
+  - /home/ryan/Documents/CS362/Tutorial_Maven/target/test-classes
+  - /home/ryan/Documents/CS362/Tutorial_Maven/target/classes
+  - /home/ryan/.m2/repository/junit/junit/4.12/junit-4.12.jar
+  - /home/ryan/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class tutorial.LinkedList
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 
+  - Line 20
+  - Branch 14
+  - Exception 0
+  - MutationFactory 21
+  - Output 8
+  - Method 6
+  - MethodNoException 6
+  - CBranchFitnessFactory 14
+* Using seed 1492486534897
+* Starting evolution
+* Search finished after 101s and 301 generations, 60833 statements, best individual has fitness: 1.25
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 20
+* Number of covered goals: 20
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 14
+* Number of covered goals: 14
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 100%
+* Total number of goals: 21
+* Number of covered goals: 21
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 88%
+* Total number of goals: 8
+* Number of covered goals: 7
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 6
+* Number of covered goals: 6
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 6
+* Number of covered goals: 6
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 14
+* Number of covered goals: 14
+* Generated 11 tests with total length 35
+* Resulting test suite's coverage: 98% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 62%
+* Compiling and checking tests
+[MASTER] 20:37:29.076 [pool-2-thread-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.ClassCastException: java.lang.Object cannot be cast to tutorial.LinkedList
+[MASTER] 20:37:29.079 [pool-2-thread-1] WARN  JUnitAnalyzer - Failing test: LinkedList<Object> linkedList0 = new LinkedList<Object>();
+Object object0 = new Object();
+linkedList0.add(object0);
+LinkedList<Object> linkedList1 = (LinkedList<Object>)linkedList0.getFirst();
+linkedList1.get(2011);
+
+* Writing JUnit test case 'LinkedList_ESTest' to /home/ryan/Documents/CS362/Tutorial_Maven/.evosuite/tmp_2017_04_17_20_35_29/tests
+* Done!
+
