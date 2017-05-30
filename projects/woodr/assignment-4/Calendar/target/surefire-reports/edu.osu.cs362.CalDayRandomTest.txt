@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: edu.osu.cs362.CalDayRandomTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.117 sec - in edu.osu.cs362.CalDayRandomTest
