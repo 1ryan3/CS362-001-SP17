@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: edu.osu.cs362.ApptRandomTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.004 sec - in edu.osu.cs362.ApptRandomTest
